@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4
+    /* ERROR #2: Missing semicolon above */
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #3498db;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.feature-box {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ERROR #3: Wrong CSS property name */
+.feature-box {
+    text-algn: center;
+}
